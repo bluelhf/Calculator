@@ -1,0 +1,42 @@
+.root {
+    -fx-background-color: #111111;
+}
+
+.button {
+    -fx-background-color: #000000;
+    -fx-text-fill: #E3E3E3;
+
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 25px;
+
+    -fx-pref-height: 57px;
+    -fx-pref-width: 147px;
+}
+
+
+.buttonGrid {
+    -fx-hgap: 5px;
+    -fx-vgap: 5px;
+}
+
+#title {
+    -fx-text-fill: #e3e3e3;
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 40px;
+}
+
+#input {
+    -fx-text-overrun: leading-ellipsis;
+    -fx-alignment: bottom-right;
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 40px;
+    -fx-background-color: #232323;
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 0%, #E3E3E3, #FFFFFF);
+}
+
+#answerButton {
+    -fx-background-color: #264686;
+}
